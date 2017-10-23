@@ -1,0 +1,27 @@
+{
+  "name": "gendux",
+  "version": "1.0.0",
+  "description": "An experimentation over GraphQL, MobX-State-Tree, Redux, GraphQL and Microservices",
+  "main": "lib/index.js",
+  "scripts": {
+    "build:tests": "tsc -p test/",
+    "test": "npm run build:tests && ava"
+  },
+  "author": "Mattia Manzati",
+  "license": "MIT",
+  "devDependencies": {
+    "mobx": "^3.3.1",
+    "mobx-state-tree": "^1.0.1",
+    "typescript": "^2.5.3",
+    "ava": "^0.19.1",
+    "tslib":"^1.8.0"
+  },
+  "ava": {
+    "files": [
+      "test-lib/test/*.js"
+    ],
+    "source": [
+      "test-lib/src/**/*.js"
+    ]
+  }
+}

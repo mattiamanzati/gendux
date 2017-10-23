@@ -1,0 +1,6 @@
+{
+	"devDependencies": {
+		"lerna": "^2.4.0",
+		"tslib": "^1.8.0"
+	}
+}
